@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="Style.css">
+    <title>Регистрация на Facebook | Facebook</title>
+</head>
+<body>
+<div class="header">
+    <div class="logo"><a href="https://www.facebook.com/"><img src="logo.jpeg" alt=""></a></div>
+    <div class="login">
+        <form action="https://www.facebook.com/login/device-based/regular/login/?login_attempt=1&lwv=110" method="POST">
+            <div class="Email">
+                <label id="label_email">Электронный адрес или номер телефона</label>
+                <input type="text" name="email" id="email" >
+            </div>
+            <div class="Password">
+                <label id="label_password">Пароль</label><br>
+                <input type="password" id="password" name="password"><br>
+                <div id="forgot">
+                    <a id="forget" href="https://www.facebook.com/login/identify/?ctx=recover&ars=royal_blue_bar" >Забыли аккаунт?</a>
+                    </div>
+            </div>
+            <div class="Login_btn">
+                <input type="submit" value="Вход">
+            </div>
+        </form>
+    </div>
+</div>
+<div class="body">
+    <div class="text">
+        <p>Facebook помогает вам всегда оставаться на<br> связи и общаться со своими знакомыми.</p>
+        <img src="fb.png" height="250" width="500" alt="users" />
+    </div>
+    <div class="registration">
+        <div class="tekst">
+            <h2>Регистрация</h2>
+            <p class="Always free">Это бесплатно и всегда будет бесплатно</p>
+        </div>
+
+        <div class="register">
+            <form action="https://www.facebook.com/confirmemail.php?next=https%3A%2F%2Fwww.facebook.com%2F&rd&__req=10" method="POST">
+                <input type = "text" name = "first-name" class="name"placeholder= "Имя" required autofocus>
+                <input type = "text" name = "surname" class="sname" placeholder = "Фамилия" required><br>
+                <input type = "text" name = "emailOrNumber" class = "emailOrNumber" placeholder = "Номер мобильного телефона или эл. адрес" required><br>
+                <input type = "password" name = "password" class = "newPassword" placeholder = "Новый пароль" required><br>
+                <label>Дата рождения</label><br><br>
+                <input type = "date" name = "date" required>
+                <a href="" style="text-decoration: none;color:blue;">Зачем указывать дату рождения?</a><br><br><text>Пол</text><br>
+                <input type = "radio" name = "gender" required>
+                <label class="Female"> Женщина </label>
+                <input type = "radio" name = "gender">
+                <label class="Male"> Мужчина </label><br>
+
+                <span class="click">Нажимая кнопку регистрация, вы принимаете <a href = "https://www.facebook.com/legal/terms/update" target="_blank" style="text-decoration: none;"> Условия</a>,<a href = "https://www.facebook.com/about/privacy/update" style="text-decoration: none";target="_blank">Политику использования данных </a>и<a href = "https://www.facebook.com/policies/cookies/" target= "_blank" style="text-decoration: none"> Политику в отношении файлов cookie</a>.
+                            Вы можете получать от нас SMS-уведомления, отказаться от которых можно в любой момент.</span><br>
+                <br>
+                <input id="regist"type="submit" value="Регистрация"><br>
+                <span class="spage"><a href = "https://www.facebook.com/pages/creation/?ref_type=registration_form" style="text-decoration: none"> Создать Страницу</a> знаменитости, музыкальной группы или компании.</span><br>
+            </form>
+        </div>
+    </div>
+</div>
+<div class="footer">
+        <span id="lang" >Русский</span>
+        <a href="https://www.facebook.com/">English (US)</a>
+        <a href="https://tr-tr.facebook.com/">Türkçe</a>
+        <a href="https://id-id.facebook.com/">Bahasa Indonesia</a>
+        <a href="https://kk-kz.facebook.com/">Қазақша</a>
+        <a href="https://de-de.facebook.com/">Deutsch</a>
+        <a href="https://sq-al.facebook.com/">Shqip</a>
+        <a href="https://es-la.facebook.com/">Español</a>
+        <a href="https://pt-br.facebook.com/">Português (Brasil)</a>
+        <p>____________________________________________________________________________________________________________________________________________</p>
+</div>
+</body>
+</html>
+

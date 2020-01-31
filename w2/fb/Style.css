@@ -1,0 +1,198 @@
+.header{
+    position: relative;
+    background: #3f5d9b;
+    height: 90px;
+    margin-top: -10px;
+}
+.logo{
+    margin-left: 230px;
+    float: left;
+    margin-top: 20px;
+}
+.login{
+    margin-left: -200px;
+    margin-right: 150px;
+    float:right;
+    margin-top: 10px;
+    font-family: Helvetica, Arial, sans-serif;
+}
+.Email{
+    margin-top: 10px;
+    height: 20px;
+    width: 280px;
+    font-size: 12px;
+    padding-left: 400px;
+}
+.Email>#label_email{
+   color: #fff;
+    font-size: 12px;
+
+
+}
+#email{
+    height: 16px;
+    width: 150px;
+    margin-top: 4px;
+}
+.Password{
+    padding-left: 650px;
+    margin-top: -20px;
+    height: 20px;
+    width: 280px;
+    color: #fff;
+    font-size: 12px;
+
+}
+#password{
+    height: 16px;
+    width: 150px;
+    margin-top: 4px;
+
+}
+#forgot{
+
+margin-top: 5px;
+
+}
+#forget:hover{
+    text-decoration: underline;
+}
+#forget{
+    text-decoration: none;
+    color: #9cb4d8;
+}
+.Login_btn{
+    padding-left: 840px;
+    margin-top:-5px;
+}
+.Login_btn input{
+    border: 1px solid rgb(40, 70, 125);
+    border-radius: 3px;
+    color: white;
+    background: rgb(70, 95, 178);
+    font-weight: bold;
+    height: 25px;
+    width: 50px;
+}
+.Login_btn input:hover{
+    background-color:rgb(40, 70, 125) ;
+}
+body{
+    padding: 0;
+    margin: 0;
+    background-color:  #E5ECEC;
+}
+.text{
+    float: left;
+    width: 565px;
+margin-left: 230px;
+}
+.text p{
+    font-size: 22px;
+    font-weight: bold;
+    color: #0e385f;
+
+
+}
+.text image{
+    position: relative;
+}
+.register{
+    width: 45%;
+    float: right;
+    margin-top: -200px;
+
+}
+.tekst{
+
+}
+.tekst h2{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 40px;
+    margin-left: -100px;
+}
+.tekst p{
+    font-size: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.register label{
+    font-size: 20px;
+    font-weight: medium;
+    margin-bottom: 15px;
+}
+.register .click{
+    color: rgb(119, 119, 122);
+    font-size: 12px;
+    width:70%;
+    float: left;
+}
+.register .spage{
+    color: rgb(61, 61, 41);
+    font-size: 14px;
+    font-weight: bold;
+    margin-top: 20px;
+}
+.register .name{
+    width:45%;
+    font-size:18px;
+    height: 33px;
+    margin-right: 1%;
+    margin-bottom: 3%;
+    border-radius: 5px;
+    color:#CCCCCC;
+    border: 1px solid #ccd0d5;
+}
+.register .sname{
+    width:45%;
+    font-size:18px;
+    height: 33px;
+    margin-right: 1%;
+    margin-bottom: 3%;
+    border-radius: 5px;
+    color:#CCCCCC;
+    border: 1px solid #ccd0d5;
+}
+#regist {
+    margin-top: 2%;
+    text-align: center;
+    margin-bottom: 5%;
+    width:215px;
+    background-color: #69a74e;
+    color:white;
+    border-radius: 7px;
+    border:1px solid;
+    border-color: #3b6e22 #3b6e22 #2c5115;
+    font-family:Helvetica, Arial, sans-serif;
+    height: 37px;
+    font-size:19px;
+    font-weight: bold;
+
+}
+.register .emailOrNumber, .newPassword{
+    width: 93%;
+    height: 33px;
+    font-size:18px;
+    margin-bottom: 3%;
+    border-radius: 5px;
+    color:#CCCCCC;
+    border: 1px solid #ccd0d5;
+}
+.footer{
+    position: relative;
+    background: white;
+    margin-top:500px;
+    height: 100px;
+}
+#lang, .foot a{
+    padding-left: 160px;
+}
+.footer a{
+    color: rgb(60, 60, 138);
+    text-decoration: none;
+    margin-left: 60px;
+}
+.footer p{
+    margin-left: 160px;
+    margin-bottom: -3px;
+}
